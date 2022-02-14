@@ -151,29 +151,23 @@ a {
   }
 }
 
-
-/* 
-.list--card {
-  font-size: 2.4rem;
-  line-height: 6rem;
-  font-weight: 500;
-}
-.list--footer {
-  font-weight: 400;
-  color: white;
+/*  Icons  */
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
-@media screen and (min-width: 1024px) {
-  .list--nav {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #d2d0db;
-  }
-  .lost--card {
-    font-size: 2.4rem;
-    line-height: 5rem;
-  }
-  .list--footer {
-    font-size: 1.5rem;
-  }
-} */
+.icon--praimary {
+  fill: var(--color-primary);
+}
+
+.icon-container {
+  /* display: inline-block; */
+  align-items: center;
+  background-color: #f3f9fa;
+  border-radius: 100%;
+  display: inline-flex;
+  height: 64px;
+  justify-content: center;
+  width: 64px;
+}
