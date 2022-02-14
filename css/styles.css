@@ -120,4 +120,60 @@ a {
     font-size: 1.2rem;
   }
 }
- 
+
+/* Lists */
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-headings);
+  /* letter-spacing: 1px; */
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list--tick {
+  list-style-image: url(/images/tick.svg);
+  padding-left: 3rem;
+}
+
+.list--tick .list__item {
+  padding-left: 0.5;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    padding-left: 0;
+  }
+}
+
+
+/* 
+.list--card {
+  font-size: 2.4rem;
+  line-height: 6rem;
+  font-weight: 500;
+}
+.list--footer {
+  font-weight: 400;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--nav {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #d2d0db;
+  }
+  .lost--card {
+    font-size: 2.4rem;
+    line-height: 5rem;
+  }
+  .list--footer {
+    font-size: 1.5rem;
+  }
+} */
