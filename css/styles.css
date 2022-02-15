@@ -376,3 +376,32 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* Media */
+
+.media {
+  display: flex;
+  /* background-color: black; */
+  margin-bottom: 2rem;
+}
+
+.media .media__icon {
+  padding: 4rem 2rem;
+  margin-top: 0;
+}
+
+.media__title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  /* color: white; */
+  /* margin-top: 0; */
+}
+
+.media__content {
+  font-size: 2rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+
+/*  */
