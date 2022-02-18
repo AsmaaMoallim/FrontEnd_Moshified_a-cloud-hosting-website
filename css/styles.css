@@ -70,6 +70,7 @@ p {
 /* Links */
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .link-arrow {
@@ -348,8 +349,8 @@ a {
 
 /* Plans */
 
-.plan{
-  transition: transform .2s ease-out;
+.plan {
+  transition: transform 0.2s ease-out;
 }
 .plan__name {
   color: white;
@@ -859,4 +860,54 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Features */
+
+/* .features__block{
+} */
+
+.feature {
+  gap: 4rem;
+  margin: 12rem;
+}
+
+.feature__heading {
+  margin-top: 2rem;
+}
+.feature__inage {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .feature.grid--1x2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature {
+    gap: 2rem;
+  }
+
+  .feature.grid {
+    grid-template-areas: "content image";
+  }
+
+  .feature:first-of-type{
+    margin-top: 6rem;
+  }
+
+  /* mosh solution with one line */
+  /* .feature:nth-child(even) .feature__content {
+    order: 2;
+  } */
+
+  .feature:nth-child(even) .feature__content {
+    grid-area: image;
+  }
+
+  .feature:nth-child(even) .feature__inage {
+    grid-area: content;
+  }
 }
