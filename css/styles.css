@@ -952,5 +952,16 @@ a {
   .showcase__block .media__title {
     font-size: 1.5rem;
   }
+}
 
+/* Testinomial block */
+
+@media screen and (min-width: 1024px) {
+  .testimonial_block {
+    margin: 1rem 15rem;
+  }
+
+  .testimonial_block .block__header {
+    margin-bottom: 6rem;
+  }
 }
