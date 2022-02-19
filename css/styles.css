@@ -101,7 +101,7 @@ a {
 .badge {
   border-radius: 20px;
   font-size: 2rem;
-  font-style: bold;
+  font-weight: bold;
   padding: 1rem 2rem;
   white-space: nowrap;
 }
@@ -151,7 +151,7 @@ a {
 }
 
 .list--tick .list__item {
-  padding-left: 0.5;
+  padding-left: 0.5rem;
   margin-bottom: 1rem;
 }
 
