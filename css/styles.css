@@ -1055,7 +1055,7 @@ a {
 
 .footer__block .list__item {
   color: white;
-  opacity: 50%;
+  opacity: 0.4;
 }
 
 /* .footer_block .collapsible {
