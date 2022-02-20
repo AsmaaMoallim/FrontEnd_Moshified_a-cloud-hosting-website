@@ -1,3 +1,5 @@
+@import "/node_modules/normalize.css/normalize.css";
+
 /* Colors */
 :root {
   --color-primary: #2584ff;
@@ -941,7 +943,7 @@ a {
 .feature__heading {
   margin-top: 2rem;
 }
-.feature__inage {
+.feature__image {
   width: 100%;
 }
 
@@ -973,7 +975,7 @@ a {
     grid-area: image;
   }
 
-  .feature:nth-child(even) .feature__inage {
+  .feature:nth-child(even) .feature__image {
     grid-area: content;
   }
 }
